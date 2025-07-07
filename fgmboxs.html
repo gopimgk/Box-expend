@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Boxes</title>
+  <link rel="stylesheet" href="fgmbox.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="title">YAY! It's BOGO</div>
+
+    <!-- Box 1 -->
+    <div class="unit-box" data-units="2" data-price="10">
+      <div class="unit-header">
+        <div class="left">1 Unit <div class="unit-price">Standard Price</div></div>
+        <div>
+          <div class="discount">10% Off</div>
+          <div class="unit-price">$10.00 USD<br><s>$24.00 USD</s></div>
+        </div>
+      </div>
+      <div class="unit-options"></div>
+    </div>
+
+    <!-- Box 2 -->
+    <div class="unit-box" data-units="2" data-price="18">
+      <div class="most-popular">MOST POPULAR</div>
+      <div class="unit-header">
+        <div class="left">2 Unit</div>
+        <div>
+          <div class="discount">20% Off</div>
+          <div class="unit-price">$18.00 USD<br><s>$48.00 USD</s></div>
+        </div>
+      </div>
+      <div class="unit-options"></div>
+    </div>
+
+    <!-- Box 3 -->
+    <div class="unit-box" data-units="2" data-price="24">
+      <div class="unit-header">
+        <div class="left">3 Unit</div>
+        <div>
+          <div class="discount">30% Off</div>
+          <div class="unit-price">$24.00 USD<br><s>$72.00 USD</s></div>
+        </div>
+      </div>
+      <div class="unit-options"></div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="free-delivery">Free Delivery</div>
+      <div class="total">Total: $<span id="totalPrice">0.00</span> USD</div>
+      <button class="add-btn">+ Add to Cart</button>
+    </div>
+  </div>
+
+  <script src="fgmbox.js"></script>
+</body>
+</html>
